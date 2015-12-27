@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\毕设演示\时钟同步\TBIM\TBIM\MDK-ARM\Project.uvproj
+Project File Date:  05/14/2015
+
+<h2>Output:</h2>
+Build target 'ZFWL_V1.0'
+compiling uctsk_SSNP_TBIM.c...
+..\USER\ssnp/TBIM.h(47): warning:  #1295-D: Deprecated declaration test_schedul_table - give arg types
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(467): warning:  #223-D: function "get_TBIM_Chn_num" declared implicitly
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(431): warning:  #550-D: variable "data" was set but never used
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(432): warning:  #177-D: variable "syn_itv" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(433): warning:  #177-D: variable "asyn_itv" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(434): warning:  #177-D: variable "begin_timeslot" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(435): warning:  #177-D: variable "k" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(437): warning:  #177-D: variable "j" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(438): warning:  #550-D: variable "st" was set but never used
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(439): warning:  #550-D: variable "Chn_num" was set but never used
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(440): warning:  #177-D: variable "tdcn_sn" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(441): warning:  #177-D: variable "f_table" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(443): warning:  #177-D: variable "func_table_row" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(444): warning:  #177-D: variable "func_table_col" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(445): warning:  #177-D: variable "factor" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(573): warning:  #223-D: function "sensor_manage" declared implicitly
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(578): warning:  #940-D: missing return statement at end of non-void function "send_streaming_date_new"
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(615): warning:  #940-D: missing return statement at end of non-void function "send_sdp_data"
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(108): warning:  #177-D: function "TIM4_Init" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(135): warning:  #177-D: function "NVIC_Configuration_TIM4" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(249): warning:  #177-D: function "App_SSNP_DP_TaskCreate" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(260): warning:  #177-D: function "App_SSNP_SDP_TaskCreate" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(271): warning:  #177-D: function "App_SSNP_TP_TaskCreate" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(283): warning:  #177-D: function "uctsk_SSNP" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(284): warning:  #177-D: function "uctsk_SSNP_TBIM" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(549): warning:  #177-D: function "uctsk_SSNP_TBIM_new_new" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(315): warning:  #177-D: function "first_syn_delay" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(327): warning:  #177-D: function "syn_delay" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(334): warning:  #177-D: function "time_slot_delay" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(340): warning:  #177-D: function "wait_for_asyn" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(351): warning:  #177-D: function "send_streaming_date" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(374): warning:  #177-D: function "recv_exe_cmd" was declared but never referenced
+..\USER\ucCos_App\uctsk_SSNP_TBIM.c(606): warning:  #177-D: function "send_sdp_data" was declared but never referenced
+linking...
+Program Size: Code=30434 RO-data=746 RW-data=484 ZI-data=64444  
+FromELF: creating hex file...
+".\Obj\Project.axf" - 0 Error(s), 33 Warning(s).
+Build target 'ZFWL_V1.0'
+linking...
+Program Size: Code=30434 RO-data=746 RW-data=484 ZI-data=64444  
+FromELF: creating hex file...
+".\Obj\Project.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\毕设演示\\时钟同步\\TBIM\\TBIM\\MDK-ARM\\Obj\\Project.AXF" 
+Set JLink Project File to "F:\毕设演示\时钟同步\TBIM\TBIM\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.20p, compiled Nov 19 2010 15:55:07
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 2.012V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'ZFWL_V1.0'
+compiling TBIM.c...
+..\USER\ssnp\TBIM.h(47): warning:  #1295-D: Deprecated declaration test_schedul_table - give arg types
+..\USER\ssnp\TBIM.c(84): warning:  #177-D: variable "addr" was declared but never referenced
+..\USER\ssnp\TBIM.c(85): warning:  #177-D: variable "nChnCnt" was declared but never referenced
+..\USER\ssnp\TBIM.c(86): warning:  #177-D: variable "nChnSn" was declared but never referenced
+..\USER\ssnp\TBIM.c(88): warning:  #177-D: variable "teds_buf" was declared but never referenced
+..\USER\ssnp\TBIM.c(91): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\ssnp\TBIM.c(552): warning:  #550-D: variable "err" was set but never used
+..\USER\ssnp\TBIM.c(649): warning:  #177-D: variable "buf" was declared but never referenced
+..\USER\ssnp\TBIM.c(762): warning:  #177-D: variable "i" was declared but never referenced
+..\USER\ssnp\TBIM.c(763): warning:  #177-D: variable "iset" was declared but never referenced
+..\USER\ssnp\TBIM.c(764): warning:  #550-D: variable "err" was set but never used
+..\USER\ssnp\TBIM.c(765): warning:  #177-D: variable "offset" was declared but never referenced
+..\USER\ssnp\TBIM.c(766): warning:  #177-D: variable "max_block_size" was declared but never referenced
+..\USER\ssnp\TBIM.c(771): warning:  #177-D: variable "tdcnTEDS" was declared but never referenced
+..\USER\ssnp\TBIM.c(773): warning:  #177-D: variable "arrayTsTeds" was declared but never referenced
+..\USER\ssnp\TBIM.c(776): warning:  #177-D: variable "meta_teds" was declared but never referenced
+..\USER\ssnp\TBIM.c(777): warning:  #177-D: variable "tdcn_teds" was declared but never referenced
+..\USER\ssnp\TBIM.c(942): warning:  #188-D: enumerated type mixed with another type
+..\USER\ssnp\TBIM.c(74): warning:  #177-D: function "insertChannel" was declared but never referenced
+..\USER\ssnp\TBIM.c(392): warning:  #177-D: function "send_cmd_reply" was declared but never referenced
+..\USER\ssnp\TBIM.c(396): warning:  #177-D: function "sent_trigger_reply" was declared but never referenced
+linking...
+Program Size: Code=30434 RO-data=746 RW-data=484 ZI-data=64444  
+FromELF: creating hex file...
+".\Obj\Project.axf" - 0 Error(s), 21 Warning(s).
+Load "F:\\毕设演示\\时钟同步\\TBIM\\TBIM\\MDK-ARM\\Obj\\Project.AXF" 
+Set JLink Project File to "F:\毕设演示\时钟同步\TBIM\TBIM\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.20p, compiled Nov 19 2010 15:55:07
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 2.109V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          0
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

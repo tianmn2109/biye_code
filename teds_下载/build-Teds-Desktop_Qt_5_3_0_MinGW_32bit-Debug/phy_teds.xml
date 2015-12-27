@@ -1,0 +1,10 @@
+<phy_teds>
+    <length>21</length>
+	<identifier>1</identifier>
+	<asynchronous-only_flag>1</asynchronous-only_flag>
+	<highest_supported_payload_encoding>1</highest_supported_payload_encoding>
+	<start_delay>11.11</start_delay>
+	<reflect_delay>12.12</reflect_delay>
+	<reflect_delay_uncertainty>13.13</reflect_delay_uncertainty>
+	<checksum>23345</checksum>
+</phy_teds>

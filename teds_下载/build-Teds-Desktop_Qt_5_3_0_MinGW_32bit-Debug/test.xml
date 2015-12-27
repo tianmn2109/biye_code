@@ -1,0 +1,26 @@
+<test_teds>
+     <length>100</length>
+	 <identifier>4</identifier>
+     <family>3</family>
+	 <version>1</version>
+	 <TEDS_hold-off_time>100</TEDS_hold-off_time>
+	 <Operational_hold-off_time>200</Operational_hold-off_time>
+	 <Maximun_sustained_load_current_drawn_from_the_transducer_bus>0.6</Maximun_sustained_load_current_drawn_from_the_transducer_bus>
+	 <Multirange_capability>1</Multirange_capability>
+	 <Number_of_ControlGroups>1</Number_of_ControlGroups>
+	 <ControlGroup_type>2</ControlGroup_type>
+	 <Number_of_TransducerChannels_in_the_ControlGroup>1</Number_of_TransducerChannels_in_the_ControlGroup>
+	 <ControlGroup_member_list>11</ControlGroup_member_list>
+	 <Number_of_VectorGroups>1</Number_of_VectorGroups>
+	 <VectorGroup_type>2</VectorGroup_type>
+	 <Number_of_TransducerChannels_in_the_VectorGroup>1</Number_of_TransducerChannels_in_the_VectorGroup>
+	 <VectorGroup_member_list>11</VectorGroup_member_list>
+	 
+	 <Number_of_TransducerChannel_proxies>1</Number_of_TransducerChannel_proxies>
+	 <TransducerChannel_number_of_the_TransducerChannel_proxy>2</TransducerChannel_number_of_the_TransducerChannel_proxy>
+	 <TransducerChannel_proxy_data_set_organization>11</TransducerChannel_proxy_data_set_organization>
+	 <Number_of_TransducerChannels_represented_by_this_proxy>1</Number_of_TransducerChannels_represented_by_this_proxy>
+	 <TransducerChannel_proxy_member_list>2</TransducerChannel_proxy_member_list>
+	 
+	 <checksum>65532</checksum>
+</test_teds>
